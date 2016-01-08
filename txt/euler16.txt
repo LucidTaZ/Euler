@@ -1,0 +1,12 @@
+Sum for i = 0 to inf:
+  floor((2^N % 10^(i+1)) / 10^i)
+
+= Sum for i = 0 to inf:
+  floor((2^N % 10^(i+1)) / (10^i % 10^(i+1)))
+
+= Sum for i = 0 to ceil(Log10(2^N)):
+  floor(2^N/10^i % 10)
+
+Final answer: 1366 as given by WolframAlpha with input:
+sum floor(2^1000 / 10^j mod 10), j = 0 to ceil(Log10(2^1000))
+
