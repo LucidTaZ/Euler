@@ -1,6 +1,16 @@
 <classpath>
-  <classpathentry excluding="main\java\|main\resources\|test\scala-2.11\|test\scala\|test\java\|test\resources\" kind="src" path="src"/>
+  <classpathentry excluding="main\java\|main\resources\|test\java\|test\resources\" kind="src" path="src"/>
+  <classpathentry kind="src" path="tests"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-core_2.11\srcs\specs2-core_2.11-3.8.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-core_2.11\jars\specs2-core_2.11-3.8.2.jar"/>
   <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-matcher_2.11\srcs\specs2-matcher_2.11-3.8.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-matcher_2.11\jars\specs2-matcher_2.11-3.8.2.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-common_2.11\srcs\specs2-common_2.11-3.8.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-common_2.11\jars\specs2-common_2.11-3.8.2.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-codata_2.11\srcs\specs2-codata_2.11-3.8.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.specs2\specs2-codata_2.11\jars\specs2-codata_2.11-3.8.2.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.scalaz\scalaz-core_2.11\srcs\scalaz-core_2.11-7.2.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.scalaz\scalaz-core_2.11\bundles\scalaz-core_2.11-7.2.2.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.scalaz\scalaz-effect_2.11\srcs\scalaz-effect_2.11-7.2.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.scalaz\scalaz-effect_2.11\bundles\scalaz-effect_2.11-7.2.2.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.scalaz\scalaz-concurrent_2.11\srcs\scalaz-concurrent_2.11-7.2.2-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.scalaz\scalaz-concurrent_2.11\bundles\scalaz-concurrent_2.11-7.2.2.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.4-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar"/>
+  <classpathentry sourcepath="C:\Users\Thijs\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.5-sources.jar" kind="lib" path="C:\Users\Thijs\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.5.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
   <classpathentry kind="output" path="bin"/>
 </classpath>

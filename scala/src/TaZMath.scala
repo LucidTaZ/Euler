@@ -16,4 +16,15 @@ object TaZMath {
     val stringRepresentation = n.toString();
     stringRepresentation.reverse.equals(stringRepresentation)
   }
+  
+  def largestPalindromeOfTwoFactors(minProduct: Int, maxProduct: Int): Int = {
+    val products: Seq[Int] = for {
+      n <- minProduct to maxProduct
+      m <- n to maxProduct
+    } yield {
+      n * m;
+    }
+    val palindromes = products.filter { isPalindrome _ }
+    palindromes.max
+  }
 }
