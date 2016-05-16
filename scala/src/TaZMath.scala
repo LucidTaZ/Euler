@@ -10,4 +10,10 @@ object TaZMath {
       n => BigInt(n).pow(n)
     }.sum
   }
+  
+  def isPalindrome(n: Int): Boolean = {
+    // TODO: Solution via strings feels cheaty
+    val stringRepresentation = n.toString();
+    stringRepresentation.reverse.equals(stringRepresentation)
+  }
 }
